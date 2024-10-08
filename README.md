@@ -15,15 +15,11 @@ Este projeto implementa um planejador para o problema do Mundo dos Blocos com bl
    ```
    git clone https://github.com/Elian66/IA-Trab1
    ```
-2. Navegue até o diretório do projeto:
-   ```
-   cd mundo-dos-blocos
-   ```
-3. Inicie o SWI-Prolog e carregue o arquivo principal:
+2. Inicie o SWI-Prolog e carregue o arquivo principal:
    ```
    swipl -s main.pl
    ```
-4. Execute o cenário definido usando o predicado `run_scenario/2`:
+3. Execute o cenário definido usando o predicado `run_scenario/2`:
    ```prolog
    ?- run_scenario(1, Plan), display_plan(Plan).
    ```
